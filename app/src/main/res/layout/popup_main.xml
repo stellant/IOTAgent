@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/switch_thumb_normal_material_dark"
+    android:id="@+id/popup">
+    <TextView
+        android:id="@+id/popupTextView1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Asset No."/>
+    <EditText
+        android:id="@+id/popupEditText1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <TextView
+    android:id="@+id/popupTextView2"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+        android:text="Enter Interval"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/popupEditText2"
+        android:inputType="number"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/popupButton1"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="OK"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/popupButton2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
